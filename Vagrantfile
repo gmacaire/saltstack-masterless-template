@@ -17,7 +17,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.provision :salt do |salt|
 
-    salt.install_args = "v0.14.1"
+    salt.install_args = "v0.16.0"
 
     salt.install_type = "git"
 
