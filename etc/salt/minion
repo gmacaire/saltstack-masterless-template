@@ -1,0 +1,13 @@
+file_client: local
+
+file_roots:
+  base:
+    - /srv/salt/state/base
+
+id: ssmt
+
+master: localhost
+
+pillar_roots:
+  base:
+    - /srv/salt/pillar/base
