@@ -1,4 +1,4 @@
-# Saltstack Masterless Template
+# SaltStack Masterless Template
 
 **Utilisation du template**
 
@@ -14,4 +14,6 @@
 
 6/ Configurer l'IP de la VM (si nécessaire, variable **config.vm.network** du fichier *Vagrantfile*).
 
-7/ Démarrer la VM : `vagrant up`
+7/ Démarrer la VM : `vagrant up`.
+
+8/ Installer les outils décrits dans *etc/salt/srv/state/base/commom/init.sls* en exécutant la commande `vagrant provision`.
