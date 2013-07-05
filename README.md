@@ -16,4 +16,4 @@
 
 7/ Démarrer la VM : `vagrant up`.
 
-8/ Installer les outils décrits dans *etc/salt/srv/state/base/commom/init.sls* en exécutant la commande `vagrant provision`.
+8/ Installer les outils décrits dans *etc/salt/srv/state/base/common/init.sls* en exécutant la commande `vagrant provision`.
